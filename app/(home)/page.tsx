@@ -4,11 +4,13 @@ import MainBanner from "../components/MainBanner";
 import Projects from "../components/Projects";
 
 export default function page() {
-    return <div className="flex min-h-screen bg-black dark:bg-black bg-white  dark:bg-grid-white/[0.04] bg-grid-black/[0.2]">
-        <div className="max-w-3xl mx-auto">
-            <Navbar/>
-            <MainBanner/>
-            <Projects/>
+    return <div className="bg-black px-5">
+        <div className="flex min-h-screen">
+            <div className="max-w-3xl mx-auto">
+                <Navbar/>
+                <MainBanner/>
+                <Projects/>
+            </div>
         </div>
     </div>
 }

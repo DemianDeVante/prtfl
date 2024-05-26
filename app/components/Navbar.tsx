@@ -25,7 +25,7 @@ export default function Navbar() {
     ];
     return (
         <nav className="flex py-10 mx-auto justify-between items-center gap-5">
-            <h1 className="text-left w-40 hover:scale-125 transition-all text-2x1 font-bold underline underline-offset-8 decoration-yellow-500 -rotate-2">Demian DeVante</h1>
+            <h1 className="text-left w-21 hover:scale-125 transition-all text-2x1 font-bold underline underline-offset-8 decoration-yellow-500 -rotate-2">Demian DeVante</h1>
             <div className="flex gap-4">
                 {socials.map((social,index)=>{
                     const Icon = social.Icon
