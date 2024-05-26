@@ -15,8 +15,8 @@ export default function MainBanner(){
                             </span>
                     </h1>
                 </div>
-                <div className="text-center md:text-left 
-                w-96 text-lg text-gray-300">
+                <div className="text-center mx-auto md:text-left
+                w-[25ch] md:w-96 text-lg text-gray-300">
                     <p>
                         {"I'm a developer with a passion for audio processing and an eye for graphic design. My journey learning and developing jsfx ui libraries with no documentation has sharpened my ability to grasp new languages swiftly. Whether it's through lines of code or sound waves, I want to create experiences that resonate."}
                     </p>
