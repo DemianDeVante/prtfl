@@ -11,7 +11,7 @@ export default function MainBanner(){
                     <h1>Hello! 
                         <br/>
                             <span className="font-bold underline underline-offset-8 decoration-blue-500">
-                                I'm Ángel Mendoza
+                                "I'm Ángel Mendoza"
                             </span>
                     </h1>
                 </div>
