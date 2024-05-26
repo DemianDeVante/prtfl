@@ -11,14 +11,14 @@ export default function MainBanner(){
                     <h1>Hello! 
                         <br/>
                             <span className="font-bold underline underline-offset-8 decoration-blue-500">
-                                I&#39;m Ángel Mendoza
+                                I'm Ángel Mendoza
                             </span>
                     </h1>
                 </div>
                 <div className="text-center md:text-left 
                 w-96 text-lg text-gray-300">
                     <p>
-                        {"I&#39;m a developer with a passion for audio processing and an eye for graphic design. My journey learning and developing jsfx ui libraries with no documentation has sharpened my ability to grasp new languages swiftly. Whether it&#39;s through lines of code or sound waves, I strive to create experiences that resonate."}
+                        {"I'm a developer with a passion for audio processing and an eye for graphic design. My journey learning and developing jsfx ui libraries with no documentation has sharpened my ability to grasp new languages swiftly. Whether it's through lines of code or sound waves, I strive to create experiences that resonate."}
                     </p>
                     <Link href={"mailto:veg.angel.mm@gmail.com"}>
                         <div>
