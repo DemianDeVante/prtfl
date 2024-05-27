@@ -100,7 +100,7 @@ export const DirectionAwareHover = ({
           <motion.div
             variants={textVariants}
             transition={{
-              duration: 0.5,
+              duration: 0.3,
               ease: "easeOut",
             }}
             className={cn(
@@ -151,27 +151,27 @@ const textVariants = {
     opacity: 1,
   },
   top: {
-    x: 20,
-    y: -10,
+    x: 7,
+    y: -5,
     opacity: 1,
-    scale:1.5,
+    scale:1.3,
   },
   bottom: {
     y: 2,
-    x: 20,
+    x: 7,
     opacity: 1,
-    scale:1.5,
+    scale:1.3,
   },
   left: {
-    x: 20,
+    x: 7,
     opacity: 1,
-    scale:1.5,
+    scale:1.3,
 
   },
   right: {
-    x: 28,
+    x: 16,
     opacity: 1,
-    scale:1.5,
+    scale:1.3,
 
   },
 };
