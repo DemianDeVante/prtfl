@@ -104,7 +104,7 @@ export const DirectionAwareHover = ({
               ease: "easeOut",
             }}
             className={cn(
-              "text-white absolute bottom-4 left-4 z-40",
+              "group-hover/card:bg-transparent bg-black px-3 bg-opacity-30 rounded-lg text-white absolute bottom-4 left-4 z-40",
               childrenClassName
             )}
           >
@@ -143,27 +143,35 @@ const textVariants = {
   initial: {
     y: 0,
     x: 0,
-    opacity: 0,
+    opacity: 1,
   },
   exit: {
     y: 0,
     x: 0,
-    opacity: 0,
+    opacity: 1,
   },
   top: {
-    y: -20,
+    x: 20,
+    y: -10,
     opacity: 1,
+    scale:1.5,
   },
   bottom: {
     y: 2,
-    opacity: 1,
-  },
-  left: {
-    x: -2,
-    opacity: 1,
-  },
-  right: {
     x: 20,
     opacity: 1,
+    scale:1.5,
+  },
+  left: {
+    x: 20,
+    opacity: 1,
+    scale:1.5,
+
+  },
+  right: {
+    x: 28,
+    opacity: 1,
+    scale:1.5,
+
   },
 };
