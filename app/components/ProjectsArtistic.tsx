@@ -6,19 +6,19 @@ import React from "react";
 export default function ProjectsArtistic(){
     const projects = [ 
         { 
-            title: "embeDDed", 
-            link: "https://github.com/DemianDeVante/reaembedded",
-            cover: "./embedded.png",
+            title: "Unreleased", 
+            link: "https://on.soundcloud.com/b1ws3UJbP4bAZNAK9",
+            cover: "./unreleased.jpg",
         },
         { 
-            title: "Music", 
-            link: "https://www.youtube.com/@demiandevante/videos",
-            cover: "./music.jpg",
+            title: "Orchestration", 
+            link: "https://on.soundcloud.com/EnS76TpPFDYgdCPu6",
+            cover: "./orchestration.png",
         },
     ]
     return (<div className="py-10 text-center">
         <div>
-            <h1 className=" text-2xl hover:scale-125 transition-all font-bold underline underline-offset-8 decoration-yellow-500 -rotate-2">Artistic Projects</h1>
+            <h1 className=" text-2xl hover:scale-125 transition-all font-bold underline underline-offset-8 decoration-yellow-500 -rotate-2">Music</h1>
         </div>
         <div className="flex">
             <div className="mx-auto py-10 grid grid-cols-1 sm:grid-cols-2 gap-5 md:gap-10">

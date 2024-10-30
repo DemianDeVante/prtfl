@@ -6,14 +6,13 @@ import React from "react";
 export default function Projects(){
     const projects = [ 
         { 
+            title: "embeDDed", 
+            link: "https://github.com/DemianDeVante/reaembedded",
+            cover: "./embedded.png",
+        },        { 
             title: "Embeddable JSFX", 
             link: "https://github.com/DemianDeVante/Demian-Reaper-Effects",
             cover: "./embeddable.png",
-        },
-        { 
-            title: "RPC Control", 
-            link: "https://github.com/DemianDeVante/Reaper-RPC-Control",
-            cover: "./rpc.jpg",
         },
         { 
             title: "Reaper Scripts", 
